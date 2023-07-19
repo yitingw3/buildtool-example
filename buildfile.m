@@ -3,7 +3,7 @@ function plan = buildfile
 
 % Copyright 2023 The MathWorks, Inc.
 
-%import matlab.buildtool.tasks.*;
+import matlab.buildtool.Task;
 
 plan = buildplan(localfunctions);
 plan("dummy1") = Task(Actions=@(~) disp('This is a dummy task'));
