@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<Info description="This example performs a graph search to find the shortest path between two nodes starting from an adjacency matrix.  The algoithm is designed to accept all (possibly invalid) inputs and return either a positive path link or a negative value to indicate an known exception."/>
